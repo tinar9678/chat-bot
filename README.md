@@ -2,10 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Run the server
 
-Example scripts
+`node index.js`
 
-### `Add run command here`
+## Run react front end
 
-Example
+`npm start`
+
+## Navigate
+See the webpage at http://localhost:3000
