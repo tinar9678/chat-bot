@@ -13,10 +13,9 @@
   width: 212px;
 }
 
-h1, .input-label, .output-label {
+h1, .input-label, .output-label, .output-text {
   color: rgb(64, 103, 137);
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
 }
 
 .input-text-box {
@@ -26,6 +25,11 @@ h1, .input-label, .output-label {
   border: none;
   box-shadow: 0px 0px 5px grey;
   border-radius: 15px;
+  padding: 10px;
+}
+
+.input-text-box:focus {
+  outline: none;
 }
 
 .text-sentiment-input-area, .text-sentiment-output-area {
@@ -37,8 +41,4 @@ h1, .input-label, .output-label {
 
 .output-label {
   margin-right: 20px;
-}
-
-.output-text {
-  visibility: hidden;
 }
